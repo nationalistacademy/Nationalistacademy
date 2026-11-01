@@ -19,17 +19,20 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-      - name: Validate Blogger XML syntax
+      - name: Validate Nationalist Academy Blogger XML
         run: |
           python - <<'PY'
           import xml.etree.ElementTree as ET
           from pathlib import Path
 
-          theme = Path("blogger-themes/nationalist-academy-unified.xml")
+          theme = Path("blogger-themes/theme.xml")
           root = ET.parse(theme).getroot()
           assert root.tag.endswith("html"), f"Unexpected root element: {root.tag}"
           ns = {"b": "http://www.google.com/2005/gml/b"}
           assert root.find(".//b:skin", ns) is not None, "Missing Blogger b:skin"
           assert root.find(".//b:section[@id='main']", ns) is not None, "Missing main Blog section"
-          print(f"Valid XML: {theme}")
+          text = theme.read_text(encoding="utf-8").lower()
+          assert "taleemwaly" not in text, "Separate TaleemWaly site must not be linked"
+          assert "lantro" not in text, "Premium Lantro theme branding/code must not remain"
+          print(f"Valid XML and project-scope checks passed: {theme}")
           PY
