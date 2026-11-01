@@ -14,15 +14,25 @@ Nationalist Academy develops and maintains digital learning resources, student-s
 
 Nationalist Academy is not an incorporated company, NGO, charity, university, government body, law firm, or regulatory authority. Legal and regulatory material is informational only and is not a substitute for advice from a qualified professional.
 
-## Projects
+## Projects and Blogger network
 
-| Project | Purpose |
+| Project | Focus |
 |---|---|
-| [Assignmentwaly](https://github.com/nationalistacademy/Assignmentwaly) | Educational publishing, study resources, academic guidance, and student tools. |
-| [Assignmentwaly website](https://assignmentwaly.blogspot.com/) | Public-facing educational content and resources. |
-| [AIOU Coaching](https://aioucoaching.blogspot.com/) | Independent student learning support and AIOU-related study resources. |
+| [TaleemWaly](https://taleemwaly.blogspot.com/) | General learning resources, educational explainers and study guidance. |
+| [Assignmentwaly](https://assignmentwaly.blogspot.com/) | Assignment guidance, solved examples, academic resources and student tools. |
+| [AIOU Coaching](https://aioucoaching.blogspot.com/) | Independent AIOU study support, free learning tools and exam practice. |
+| [Nationalist Academy Blog](https://nationalistacademy.blogspot.com/) | Organization updates, digital literacy and public-interest explainers. |
+| [Assignmentwaly GitHub repository](https://github.com/nationalistacademy/Assignmentwaly) | Source repository for Assignmentwaly publishing and educational resources. |
 
 These projects are independent. AIOU Coaching is not affiliated with, endorsed by, or officially connected to Allama Iqbal Open University unless a specific official source states otherwise.
+
+## Website
+
+The repository root contains a lightweight, responsive project hub in `index.html`. It is static-first and does not require a build step or paid API.
+
+## Blogger theme
+
+A reusable Blogger XML theme is maintained in [blogger-themes](./blogger-themes/). It includes responsive desktop/mobile layouts, mobile bottom navigation, search, dark mode and cross-links to all four Blogger sites. Read the [installation and safety notes](./blogger-themes/README.md) before applying it to a live blog. The XML is a theme file only; it does not install itself or modify Blogger settings.
 
 ## Our principles
 
