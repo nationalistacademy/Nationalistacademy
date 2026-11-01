@@ -30,9 +30,19 @@ jobs:
           assert root.tag.endswith("html"), f"Unexpected root element: {root.tag}"
           ns = {"b": "http://www.google.com/2005/gml/b"}
           assert root.find(".//b:skin", ns) is not None, "Missing Blogger b:skin"
-          assert root.find(".//b:section[@id='main']", ns) is not None, "Missing main Blog section"
+          assert root.find(".//b:section[@id='main-widget']", ns) is not None, "Missing main content section"
+          assert root.find(".//b:widget[@id='Blog1']", ns) is not None, "Missing Blogger Blog widget"
+
           text = theme.read_text(encoding="utf-8").lower()
+          assert "nationalist academy" in text, "Missing Nationalist Academy branding"
+          assert "faiezbinhafeez@gmail.com" in text, "Missing organization contact"
+          assert "faiez mehmood" in text, "Missing proprietor disclosure"
+          assert "osint" in text and "unauthorized access" in text, "Missing responsible OSINT scope"
+          assert "stw team" in text and "somadanmedia" in text, "Upstream theme attribution must remain visible"
+          assert "your_license_key_here" in text, "Do not replace the public-repository license placeholder with a secret"
           assert "taleemwaly" not in text, "Separate TaleemWaly site must not be linked"
-          assert "lantro" not in text, "Premium Lantro theme branding/code must not remain"
-          print(f"Valid XML and project-scope checks passed: {theme}")
+          assert "assignmentwaly.blogspot.com" not in text, "Do not cross-link Assignmentwaly from this theme"
+          assert "aioucoaching.blogspot.com" not in text, "Do not cross-link AIOU Coaching from this theme"
+          assert "welcome to lantro ui" not in text, "Old demo banner remains"
+          print(f"Valid XML and Nationalist Academy scope checks passed: {theme}")
           PY
