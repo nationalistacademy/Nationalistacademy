@@ -1292,7 +1292,6 @@ error: &quot;<a class='jsLd error' expr:aria-label='data:messages.loadMorePosts'
   <!--[ </head> close ]-->
   &lt;!--<head/><b:if cond='!data:blog.adsenseClientId'>--&gt;<meta name='author' content='Nationalist Academy'/>
   <meta name='application-name' content='Nationalist Academy'/>
-  <meta name='description' content='Nationalist Academy is an independent educational and information initiative in Karachi, Pakistan, sharing digital literacy, responsible OSINT education, source verification and public-interest explainers.'/>
   <script type='application/ld+json'><![CDATA[
   {"@context":"https://schema.org","@type":"Organization","name":"Nationalist Academy","url":"https://nationalistacademy.blogspot.com/","description":"Independent educational and information initiative focused on digital literacy, responsible public-source research and source verification.","email":"faiezbinhafeez@gmail.com","founder":{"@type":"Person","name":"Faiez Mehmood","jobTitle":"Proprietor"},"address":{"@type":"PostalAddress","addressLocality":"Karachi","addressRegion":"Sindh","addressCountry":"PK"},"additionalProperty":[{"@type":"PropertyValue","name":"Operating model","value":"Sole proprietorship"},{"@type":"PropertyValue","name":"NTN status","value":"Registered as stated by the proprietor"}]}
   ]]></script>
@@ -1465,7 +1464,7 @@ error: &quot;<a class='jsLd error' expr:aria-label='data:messages.loadMorePosts'
                       </b:widget>
                       <b:widget id='PageList000' locked='true' title='Navigation Menu (Simple)' type='PageList' version='2' visible='false'>
                         <b:widget-settings>
-                          <b:widget-setting name='pageListJson'><![CDATA[{"link1":{"href":"#","position":2,"title":"Contact"},"link0":{"href":"#","position":1,"title":"About"},"link3":{"href":"#","position":4,"title":"Custom menu"},"link2":{"href":"#","position":3,"title":"Original theme licence"},"home":{"href":"https://lantro-ui.shivatechnicworld.eu.org/","position":0,"title":"Home"}}]]></b:widget-setting>
+                          <b:widget-setting name='pageListJson'><![CDATA[{"home":{"href":"https://nationalistacademy.blogspot.com/","position":0,"title":"Home"}}]]></b:widget-setting>
                           <b:widget-setting name='homeTitle'>Home</b:widget-setting>
                         </b:widget-settings>
                         <b:includable id='main'>
@@ -3831,10 +3830,10 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
                 <b:widget id='LinkList02' locked='true' title='Company' type='LinkList' version='2' visible='true'>
                   <b:widget-settings>
                     <b:widget-setting name='sorting'>NONE</b:widget-setting>
-                    <b:widget-setting name='text-1'>Contact</b:widget-setting>
-                    <b:widget-setting name='link-1'>#</b:widget-setting>
-                    <b:widget-setting name='text-0'>About</b:widget-setting>
-                    <b:widget-setting name='link-0'>#</b:widget-setting>
+                    <b:widget-setting name='text-1'>Contact Nationalist Academy</b:widget-setting>
+                    <b:widget-setting name='link-1'>mailto:faiezbinhafeez@gmail.com</b:widget-setting>
+                    <b:widget-setting name='text-0'>About &amp; legal identity</b:widget-setting>
+                    <b:widget-setting name='link-0'>#org-legal</b:widget-setting>
                   </b:widget-settings>
                   <b:includable id='main'>
                     <b:include name='widget-title'/>
