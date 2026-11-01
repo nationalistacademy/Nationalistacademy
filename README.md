@@ -31,7 +31,7 @@ The repository root contains a lightweight, responsive project hub in `index.htm
 
 ## Blogger theme
 
-A reusable Blogger XML theme is maintained in [blogger-themes](./blogger-themes/). It includes responsive desktop/mobile layouts, mobile bottom navigation, search, dark mode and cross-links to all four Blogger sites. Read the [installation and safety notes](./blogger-themes/README.md) before applying it to a live blog. The XML is a theme file only; it does not install itself or modify Blogger settings.
+An original Blogger XML theme specifically for the Nationalist Academy blog is maintained in [blogger-themes/theme.xml](./blogger-themes/theme.xml). It includes responsive desktop/mobile layouts, mobile bottom navigation, search, dark mode, organization information and links to the two independent project blogs. It is not a shared theme for Assignmentwaly or AIOU Coaching. Read the [installation and safety notes](./blogger-themes/README.md) before applying it. The XML is a theme file only; it does not install itself or modify Blogger settings.
 
 ## Our principles
 
