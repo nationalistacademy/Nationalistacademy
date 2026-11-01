@@ -9,7 +9,8 @@
   
 <!--
 
-    Name      : Lantro UI
+    Site Edition : Nationalist Academy
+    Base Theme  : Lantro UI v1.5 (licensed upstream theme)
     Version   : 1.5
     Date      : 27-08-2022
     Demo      : lantro-ui.shivatechnicworld.eu.org
@@ -77,7 +78,7 @@
       <b:else/>
       <meta expr:content='data:blog.pageName.escaped ? data:blog.pageName.escaped : data:blog.title' name='description'/>
     </b:if>
-    <meta expr:content='data:blog.title.escaped + &quot;, &quot; + data:blog.pageName.escaped + &quot;, Keyword_1, Keyword_2, Keyword_3 &quot;' name='keywords'/>
+    <meta expr:content='&quot;Nationalist Academy, OSINT education, public-source research, digital literacy, source verification, research ethics, Pakistan&quot;' name='keywords'/>
     <b:tag cond='data:view.isPost' expr:href='resizeImage(data:blog.postImageUrl, 0)' name='link' rel='image_src'/>
   
     <!--[ Generator and rrs ]-->
@@ -121,7 +122,7 @@
     <b:if cond='data:blog.postImageUrl'>
       <meta expr:content='resizeImage(data:blog.postImageUrl, 0)' property='og:image'/>
       <b:else/>
-      <meta content='Add_your_image_url_here' property='og:image'/>
+      <meta content='https://nationalistacademy.blogspot.com/favicon.ico' property='og:image'/>
     </b:if>
     
     <!--[ Twitter Card ]-->
@@ -145,7 +146,7 @@
     <b:if cond='data:blog.postImageUrl'>
       <meta expr:content='resizeImage(data:blog.postImageUrl, 0)' name='twitter:image:src'/>
       <b:else/>
-      <meta content='Add_your_image_url_here' name='twitter:image:src'/>
+      <meta content='https://nationalistacademy.blogspot.com/favicon.ico' name='twitter:image:src'/>
     </b:if>
   
     <!--[ Site Verification ]-->
@@ -163,14 +164,14 @@
   
   <b:if cond='data:view.isLayoutMode'>
     <!--[ CSS Layout ]-->
-    <b:template-skin><![CDATA[ body#layout::before{content:'Lantro UI v1.5 (Shiva Technic World)';position:absolute;top:15px;right:15px;font-size:.8rem;font-family:'Poppins', sans-serif;color:rgba(0,0,0,0.52)} body#layout{width:1025px;margin:0 !important;padding:60px 0 0 !important;border:0 !important;text-align:left !important;position:relative} body#layout div.layout-widget-description{font-size:12px !important;line-height:1.6em} body#layout div.layout-title{font-size:15px !important} body#layout div.section{border-radius:2px} body#layout .section h4{font-size:15px !important;margin-left:0!important} body#layout .add_widget a{font-size:13px !important} body#layout .Blog .widget-content{height:auto!important} body#layout #anchor-ad, body#layout #notif-widget .widget-content, body#layout #side-sticky, body#layout #HTML91 .widget-content, body#layout #HTML92 .widget-content, body#layout #HTML93 .widget-content, body#layout #HTML01 .widget-content, body#layout #HTML02 .widget-content, body#layout #HTML94 .widget-content{background:#f0f8ff !important} body#layout .mainIn{padding-bottom:30px} body#layout .headIn, body#layout .blogM, body#layout .navIn, body#layout .mainIn .secIn{display:flex} body#layout .headL, body#layout .mainIn .blogTopc{width:30%} body#layout .headR, body#layout .mainIn .blogCont{width:70%} body#layout .navIn >*{width:50%} body#layout .mainbar{width:55%} body#layout .sidebar{width:45%} body#layout header, body#layout .navIn, body#layout .mainIn, body#layout footer, body#layout .erroP{border-top:1px solid #e5e5e5;padding:30px 0 30px;position:relative} body#layout header::before, body#layout .mainIn::before, body#layout footer::before, body#layout .erroP::before{content:'Header';position:absolute;top:-14px;left:20px;padding:5px 20px;border:1px solid #e5e5e5;border-radius:20px;font-size:.8rem;font-family:'Poppins',sans-serif;color:rgba(0,0,0,0.52);background:#f1f1f1} body#layout #notif-widget{padding:0!important; margin-bottom:30px!important} body#layout #notif-widget .widget{margin-top:0!important} body#layout #notif-widget h4, body#layout #notif-widget .layout-widget-description{display:none !important} body#layout .erroP{margin-top:40px;padding-bottom:0} body#layout .mainIn::before{content:'Main Content'} body#layout footer::before{content:'Footer'} body#layout .erroP::before{content:'Custom Error Page'} ]]></b:template-skin>
+    <b:template-skin><![CDATA[ body#layout::before{content:'Nationalist Academy | Lantro UI licensed base';position:absolute;top:15px;right:15px;font-size:.8rem;font-family:'Poppins', sans-serif;color:rgba(0,0,0,0.52)} body#layout{width:1025px;margin:0 !important;padding:60px 0 0 !important;border:0 !important;text-align:left !important;position:relative} body#layout div.layout-widget-description{font-size:12px !important;line-height:1.6em} body#layout div.layout-title{font-size:15px !important} body#layout div.section{border-radius:2px} body#layout .section h4{font-size:15px !important;margin-left:0!important} body#layout .add_widget a{font-size:13px !important} body#layout .Blog .widget-content{height:auto!important} body#layout #anchor-ad, body#layout #notif-widget .widget-content, body#layout #side-sticky, body#layout #HTML91 .widget-content, body#layout #HTML92 .widget-content, body#layout #HTML93 .widget-content, body#layout #HTML01 .widget-content, body#layout #HTML02 .widget-content, body#layout #HTML94 .widget-content{background:#f0f8ff !important} body#layout .mainIn{padding-bottom:30px} body#layout .headIn, body#layout .blogM, body#layout .navIn, body#layout .mainIn .secIn{display:flex} body#layout .headL, body#layout .mainIn .blogTopc{width:30%} body#layout .headR, body#layout .mainIn .blogCont{width:70%} body#layout .navIn >*{width:50%} body#layout .mainbar{width:55%} body#layout .sidebar{width:45%} body#layout header, body#layout .navIn, body#layout .mainIn, body#layout footer, body#layout .erroP{border-top:1px solid #e5e5e5;padding:30px 0 30px;position:relative} body#layout header::before, body#layout .mainIn::before, body#layout footer::before, body#layout .erroP::before{content:'Header';position:absolute;top:-14px;left:20px;padding:5px 20px;border:1px solid #e5e5e5;border-radius:20px;font-size:.8rem;font-family:'Poppins',sans-serif;color:rgba(0,0,0,0.52);background:#f1f1f1} body#layout #notif-widget{padding:0!important; margin-bottom:30px!important} body#layout #notif-widget .widget{margin-top:0!important} body#layout #notif-widget h4, body#layout #notif-widget .layout-widget-description{display:none !important} body#layout .erroP{margin-top:40px;padding-bottom:0} body#layout .mainIn::before{content:'Main Content'} body#layout footer::before{content:'Footer'} body#layout .erroP::before{content:'Custom Error Page'} ]]></b:template-skin>
   </b:if>
 
   <!--[ CSS stylesheet ]-->
   &lt;style&gt;&lt;!-- /* <b:skin version='1.3.0'><![CDATA[
 /*
 <Group description="Theme Color">
-<Variable name="themeColor" description="Address bar color" type="color" default="#2e51a2" value="transparent"/>
+<Variable name="themeColor" description="Address bar color" type="color" default="#0f766e" value="transparent"/>
 </Group>
 
 <Group description="Basic colors and Background">
@@ -178,8 +179,8 @@
 <Variable name="body.color" description="Body colors" type="color" default="#48525c" value="#08102b"/>
 <Variable name="body.colorAlt" description="Alternative body colors" type="color" default="#767676" value="#767676"/>
 <Variable name="body.bgColor" description="Main page bakground color" type="color" default="#fffdfc" value="#FFFFFF"/>
-<Variable name="link.color" description="Link colors" type="color" default="#9C27B0" value="#9C27B0"/>
-<Variable name="link.bgColor" description="Button link colors" type="color" default="#9C27B0" value="#9C27B0"/>
+<Variable name="link.color" description="Link colors" type="color" default="#0f766e" value="#0f766e"/>
+<Variable name="link.bgColor" description="Button link colors" type="color" default="#0f766e" value="#0f766e"/>
 <Variable name="scroll.color" description="Scrollbar colors" type="color" default="#555" value="#555555"/>
 </Group>
 
@@ -193,7 +194,7 @@
 <Variable name="notif.height" description="Notification max height" type="length" max="60px" default="60px" value="60px"/>
 <Variable name="notif.bg" description="Notification background color" type="color" default="#F3E5F5" value="#F3E5F5"/>
 <Variable name="notif.color" description="Notification text color" type="color" default="#08102b" value="#08102b"/>
-<Variable name="notif.link" description="Notification link color" type="color" default="#9c27b0" value="#9c27b0"/>
+<Variable name="notif.link" description="Notification link color" type="color" default="#0f766e" value="#0f766e"/>
 </Group>
 
 <Group description="Header colors, background and height">
@@ -299,8 +300,22 @@
     /* Theme 7 - Blue Grey */ :root .theme7:not(.drK){/* Theme */ --themeC: #455A64; /* Body */ --bodyB: #FBFEFF; /* Link */ --linkC: #546E7A; --linkB: #546E7A; /* Scrollbar */--scrlC #546E7A; /* Header */ --headerB: #ECEFF1; /* Notif */ --notifU: #ECEFF1; --notifC: #455A64; /* Search */ --srchB: #ECEFF1; /* MobMn */ --mobB: #ECEFF1;/* Border M Track */ --bTopMT : #ECEFF1 ;/* Button M Track */--mtBtn : #ECEFF1}
     /* Theme 8 - Brown */ :root .theme8:not(.drK){/* Theme */ --themeC: #5D4037; /* Body */ --bodyB: #FBFEFF; /* Link */ --linkC: #5D4037; --linkB: #5D4037;  /* Scrollbar */--scrlC  #5D4037; /* Header */ --headerB: #EFEBE9; /* Notif */ --notifU: #EFEBE9; --notifC: #5D4037; /* Search */ --srchB: #EFEBE9; /* MobMn */ --mobB: #EFEBE9;/* Border M Track */ --bTopMT : #EFEBE9 ;/* Button M Track */--mtBtn : #EFEBE9}
     /* Theme 9 - Purple */ :root .theme9:not(.drK){/* Theme */ --themeC: #7B1FA2; /* Body */ --bodyB: #FBFEFF; /* Link */ --linkC: #8E24AA; --linkB: #8E24AA; /* Scrollbar */--scrlC  #8E24AA; /* Header */ --headerB: #F3E5F5; /* Notif */ --notifU: #F3E5F5; --notifC: #7B1FA2; /* Search */ --srchB: #F3E5F5; /* MobMn */ --mobB: #F3E5F5;/* Border M Track */ --bTopMT : #F3E5F5 ;/* Button M Track */--mtBtn : #F3E5F5}
-    /* Theme 10 - Indigo */ :root .theme10:not(.drK){/* Theme */ --themeC: #283593; /* Body */ --bodyB: #FBFEFF; /* Link */ --linkC: #3949AB; --linkB: #3949AB; /* Scrollbar */--scrlC  #3949AB; /* Header */ --headerB: #E8EAF6; /* Notif */ --notifU: #E8EAF6; --notifC: #283593; /* Search */ --srchB: #E8EAF6; /* MobMn */ --mobB: #E8EAF6;/* Border M Track */ --bTopMT : #E8EAF6 ;/* Button M Track */--mtBtn : #E8EAF6}
+    /* Theme 10 - Indigo */ :root .theme10:not(.drK){/* Theme */ --themeC: #143b39; /* Body */ --bodyB: #FBFEFF; /* Link */ --linkC: #0f766e; --linkB: #0f766e; /* Scrollbar */--scrlC  #0f766e; /* Header */ --headerB: #e8f4f1; /* Notif */ --notifU: #e8f4f1; --notifC: #143b39; /* Search */ --srchB: #e8f4f1; /* MobMn */ --mobB: #e8f4f1;/* Border M Track */ --bTopMT : #e8f4f1 ;/* Button M Track */--mtBtn : #e8f4f1}
 ]]></b:skin>
+<style><![CDATA[
+:root{--linkC:#0f766e;--linkB:#0f766e;--scrlC:#0f766e;--headerB:#fff;--notifU:#e8f4f1;--notifC:#143b39;--srchB:#f1f5f9;--mobB:#fff;--mtBtn:#fff}
+body{accent-color:#0f766e}
+.themeCredit{margin:14px auto 0;padding:12px 16px;max-width:1100px;border-top:1px solid rgba(100,116,139,.22);font-size:12px;line-height:1.7;opacity:.82;text-align:center}
+.themeCredit a{font-weight:600;text-decoration:underline}
+#org-legal{scroll-margin-top:90px}
+#org-legal p{line-height:1.75;margin:8px 0}
+#org-legal a{overflow-wrap:anywhere}
+.stw-feature li a{border-radius:14px;transition:transform .2s ease,box-shadow .2s ease}
+.stw-feature li a:hover{transform:translateY(-3px);box-shadow:0 10px 28px rgba(15,118,110,.12)}
+@media(max-width:640px){.themeCredit{padding:12px 18px 28px}#org-legal p{font-size:13px}}
+@media(prefers-reduced-motion:reduce){.stw-feature li a{transition:none}.stw-feature li a:hover{transform:none}}
+]]></style>
+
 
 <style>/*<![CDATA[*/
 /* Font Body and Heading */  @font-face {font-family: 'Poppins';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face {font-family: 'Poppins';font-style: normal;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2) format('woff2');unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face {font-family: 'Poppins';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2) format('woff2');unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
@@ -549,7 +564,7 @@
        <span class='tPkr thB4' onclick='thmMo(); theme4()' style='--pkrC:#FBC02D'/><span class='tPkr thB5' onclick='thmMo(); theme5()' style='--pkrC:#E91E63'/>
        <span class='tPkr thB6' onclick='thmMo(); theme6()' style='--pkrC:#FF5722'/><span class='tPkr thB7' onclick='thmMo(); theme7()' style='--pkrC:#607D8B'/>
        <span class='tPkr thB8' onclick='thmMo(); theme8()' style='--pkrC:#5D4037'/><span class='tPkr thB9' onclick='thmMo(); theme9()' style='--pkrC:#744D97'/>
-       <span class='tPkr thB10' onclick='thmMo(); theme10()' style='--pkrC:#3949AB'/>
+       <span class='tPkr thB10' onclick='thmMo(); theme10()' style='--pkrC:#0f766e'/>
        </div>
        </div>
        </b:includable>
@@ -1275,7 +1290,16 @@ error: &quot;<a class='jsLd error' expr:aria-label='data:messages.loadMorePosts'
   <meta content='sat, 02 jun 2024 00:00:00 GMT' http-equiv='expires'/>
   
   <!--[ </head> close ]-->
-  &lt;!--<head/><b:if cond='!data:blog.adsenseClientId'>--&gt;&lt;/head&gt;</b:if>
+  &lt;!--<head/><b:if cond='!data:blog.adsenseClientId'>--&gt;<meta name='author' content='Nationalist Academy'/>
+  <meta name='application-name' content='Nationalist Academy'/>
+  <meta name='description' content='Nationalist Academy is an independent educational and information initiative in Karachi, Pakistan, sharing digital literacy, responsible OSINT education, source verification and public-interest explainers.'/>
+  <script type='application/ld+json'><![CDATA[
+  {"@context":"https://schema.org","@type":"Organization","name":"Nationalist Academy","url":"https://nationalistacademy.blogspot.com/","description":"Independent educational and information initiative focused on digital literacy, responsible public-source research and source verification.","email":"faiezbinhafeez@gmail.com","founder":{"@type":"Person","name":"Faiez Mehmood","jobTitle":"Proprietor"},"address":{"@type":"PostalAddress","addressLocality":"Karachi","addressRegion":"Sindh","addressCountry":"PK"},"additionalProperty":[{"@type":"PropertyValue","name":"Operating model","value":"Sole proprietorship"},{"@type":"PropertyValue","name":"NTN status","value":"Registered as stated by the proprietor"}]}
+  ]]></script>
+  <script type='application/ld+json'><![CDATA[
+  {"@context":"https://schema.org","@type":"WebSite","name":"Nationalist Academy","url":"https://nationalistacademy.blogspot.com/","potentialAction":{"@type":"SearchAction","target":"https://nationalistacademy.blogspot.com/search?q={search_term_string}","query-input":"required name=search_term_string"}}
+  ]]></script>
+  &lt;/head&gt;</b:if>
 
   <!--[ <body> open ]-->
   <body>
@@ -1359,7 +1383,7 @@ error: &quot;<a class='jsLd error' expr:aria-label='data:messages.loadMorePosts'
               
                 <!--[ Header widget ]-->
                 <b:section class='headN' id='header-title' maxwidgets='1' showaddelement='false'>
-                  <b:widget id='Header1' locked='true' title='HackFreaks (Header)' type='Header' version='2' visible='true'>
+                  <b:widget id='Header1' locked='true' title='Nationalist Academy (Header)' type='Header' version='2' visible='true'>
                     <b:widget-settings>
                       <b:widget-setting name='displayUrl'/>
                       <b:widget-setting name='displayHeight'>0</b:widget-setting>
@@ -1426,98 +1450,22 @@ error: &quot;<a class='jsLd error' expr:aria-label='data:messages.loadMorePosts'
                           <b:widget-setting name='content'><![CDATA[<!--[ you can only edit this widget from HTML theme ]-->]]></b:widget-setting>
                         </b:widget-settings>
                         <b:includable id='main'>
-                          <ul class='mnMn' itemscope='itemscope' itemtype='https://schema.org/SiteNavigationElement'>
-                  
-                            <b:if cond='!data:view.isHomepage'>
-                              <!--[ Home link ]-->
-                              <li class='hm'>
-                                <a class='a' expr:href='data:blog.homepageUrl.canonical' itemprop='url'>
-                                  <b:include name='home-icon'/>
-                        
-                                  <!--[ Title navigation ]-->
-                                  <span class='n' itemprop='name'><data:messages.home/></span>
-                                </a>
-                              </li>
-                            </b:if>
-                    
-                            <!--[ Dropdown style 1 ]-->
-                            <li class='drp'>
-                              <input class='drpI hidden' id='drpDwn-1' name='drpDwn' type='checkbox'/>
-                              <label class='a' for='drpDwn-1'>
-                                <!--[ Icon ]-->
-                                <b:include name='folder-icon'/>
-                          
-                                <!--[ Title navigation ]-->
-                                <span class='n'>Sub menu</span>
-                        
-                                <b:include name='arow-down-icon'/>
-                              </label>
-                              <ul>
-                                <!--[ Change attribute href='#' to add url ]-->
-                                <li itemprop='name'><a href='#' itemprop='url'>Sub menu 01</a></li>
-                                <li itemprop='name'><a href='#' itemprop='url'>Sub menu 02</a></li>
-                                <li itemprop='name'><a href='#' itemprop='url'>Sub menu 03</a></li>
-                                <li itemprop='name'><a href='#' itemprop='url'>Sub menu 04</a></li>
-                              </ul>
-                            </li>
-                          
-                            <!--[ Standar menu ]-->
-                            <li>
-                              <!--[ Change attribute href='#' to add url ]-->
-                              <a class='a' href='#' itemprop='url'>
-                                <!--[ Icon ]-->
-                                <b:include name='profiles-icon'/>
-                          
-                                <!--[ Title navigation ]-->
-                                <span class='n' itemprop='name'>About</span>
-                              </a>
-                            </li>
-                          
-                            <!--[ Standar menu ]-->
-                            <li class='br'>
-                              <!--[ Change attribute href='#' to add url ]-->
-                              <a class='a' href='#' itemprop='url'>
-                                <!--[ Icon ]-->
-                                <b:include name='message-icon'/>
-                          
-                                <!--[ Title navigation ]-->
-                                <span class='n' itemprop='name'>Contact</span>
-                              </a>
-                            </li>
-                      
-                            <!--[ Dropdown style 2 ]-->
-                            <li class='drp mr br'>
-                              <input checked='checked' class='drpI hidden' id='drpMr-2' name='drpDwn' type='checkbox'/>
-                              <label class='a' for='drpMr-2'>
-                            
-                                <!--[ Title navigation ]-->
-                                <span class='n'>More...</span>
-                          
-                                <b:include name='arow-down-icon'/>
-                              </label>
-                              <ul>
-                                <!--[ Change attribute href='#' to add url ]-->
-                                <li itemprop='name'><a class='new' expr:href='data:blog.homepageUrl.canonical params { hl: &quot;ar&quot; }' itemprop='url'>Try RTL Mode</a></li>
-                              </ul>
-                            </li>
-                        
-                            <!--[ Standar menu ]-->
-                            <li>
-                              <a class='a' href='https://somadanmedia.com' itemprop='url'>
-                                <!--[ Icon ]-->
-                                <b:include name='download-alt-icon'/>
-                            
-                                <!--[ Title navigation ]-->
-                                <span class='n' itemprop='name'>Download this theme</span>
-                              </a>
-                            </li>
-                          
-                          </ul>
-                        </b:includable>
+  <ul class='mnMn' itemscope='itemscope' itemtype='https://schema.org/SiteNavigationElement'>
+    <b:if cond='!data:view.isHomepage'><li class='hm'><a class='a' expr:href='data:blog.homepageUrl.canonical' itemprop='url'><b:include name='home-icon'/><span class='n' itemprop='name'><data:messages.home/></span></a></li></b:if>
+    <li><a class='a' href='/search/label/OSINT' itemprop='url'><b:include name='folder-icon'/><span class='n' itemprop='name'>OSINT &amp; Public Research</span></a></li>
+    <li><a class='a' href='/search/label/Digital%20Literacy' itemprop='url'><b:include name='profiles-icon'/><span class='n' itemprop='name'>Digital Literacy</span></a></li>
+    <li><a class='a' href='/search/label/Research%20Ethics' itemprop='url'><b:include name='message-icon'/><span class='n' itemprop='name'>Research Ethics</span></a></li>
+    <li class='br'><a class='a' href='mailto:faiezbinhafeez@gmail.com?subject=Nationalist%20Academy%20Enquiry' itemprop='url'><b:include name='message-icon'/><span class='n' itemprop='name'>Contact</span></a></li>
+    <li class='drp mr br'><input checked='checked' class='drpI hidden' id='drpMr-2' name='drpDwn' type='checkbox'/><label class='a' for='drpMr-2'><span class='n'>More</span><b:include name='arow-down-icon'/></label><ul>
+      <li itemprop='name'><a expr:href='data:blog.homepageUrl.canonical params { hl: &quot;ar&quot; }' itemprop='url'>اردو / RTL mode</a></li>
+      <li itemprop='name'><a href='https://lantro-ui.shivatechnicworld.eu.org/p/purchase.html' itemprop='url'>Theme licence &amp; original credits</a></li>
+    </ul></li>
+  </ul>
+</b:includable>
                       </b:widget>
                       <b:widget id='PageList000' locked='true' title='Navigation Menu (Simple)' type='PageList' version='2' visible='false'>
                         <b:widget-settings>
-                          <b:widget-setting name='pageListJson'><![CDATA[{"link1":{"href":"#","position":2,"title":"Contact"},"link0":{"href":"#","position":1,"title":"About"},"link3":{"href":"#","position":4,"title":"Custom menu"},"link2":{"href":"#","position":3,"title":"Download this theme"},"home":{"href":"https://lantro-ui.shivatechnicworld.eu.org/","position":0,"title":"Home"}}]]></b:widget-setting>
+                          <b:widget-setting name='pageListJson'><![CDATA[{"link1":{"href":"#","position":2,"title":"Contact"},"link0":{"href":"#","position":1,"title":"About"},"link3":{"href":"#","position":4,"title":"Custom menu"},"link2":{"href":"#","position":3,"title":"Original theme licence"},"home":{"href":"https://lantro-ui.shivatechnicworld.eu.org/","position":0,"title":"Home"}}]]></b:widget-setting>
                           <b:widget-setting name='homeTitle'>Home</b:widget-setting>
                         </b:widget-settings>
                         <b:includable id='main'>
@@ -1548,7 +1496,7 @@ error: &quot;<a class='jsLd error' expr:aria-label='data:messages.loadMorePosts'
                                   <b:elseif cond='data:link.title == &quot;Contact&quot;'/>
                                   <b:include name='message-icon'/>
                                 
-                                  <b:elseif cond='data:link.title == &quot;Download this theme&quot; or data:link.title == &quot;Download&quot;'/>
+                                  <b:elseif cond='data:link.title == &quot;Original theme licence&quot; or data:link.title == &quot;Download&quot;'/>
                                   <b:include name='download-icon'/>
                               
                                   <b:elseif cond='data:link.title == &quot;Sitemap&quot;'/>
@@ -1792,7 +1740,7 @@ error: &quot;<a class='jsLd error' expr:aria-label='data:messages.loadMorePosts'
         <div class='srhB fixL'>
           <div class='srhBi fixLi'>
             <b:section class='srhBs fixLs' id='search-widget' maxwidgets='2' showaddelement='false'>
-              <b:widget id='BlogSearch1' locked='true' title='Try &apos;Adventure&apos;' type='BlogSearch' version='2' visible='true'>
+              <b:widget id='BlogSearch1' locked='true' title='Search Nationalist Academy' type='BlogSearch' version='2' visible='true'>
                 <b:includable id='main'>
                   <b:include name='content'/>
                 </b:includable>
@@ -1897,10 +1845,10 @@ error: &quot;<a class='jsLd error' expr:aria-label='data:messages.loadMorePosts'
 &lt;div class=&#39;ntfA&#39;&gt; 
   &lt;span&gt;
 
-Welcome to Lantro UI! &lt;a href=&#39;#&#39;&gt;Test link&lt;/a&gt; 
+Welcome to Nationalist Academy — independent learning, digital literacy and responsible public-source research. 
 
   &lt;/span&gt; 
-  &lt;a style=&#39;color:#fff&#39;  href=&#39;https://lantro-ui.shivatechnicworld.eu.org/p/purchase.html&#39;&gt;Buy now!&lt;/a&gt;
+  &lt;a style=&#39;color:#fff&#39;  href=&#39;mailto:faiezbinhafeez@gmail.com&#39;&gt;Contact us&lt;/a&gt;
 &lt;/div&gt;</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
@@ -2254,62 +2202,21 @@ Welcome to Lantro UI! &lt;a href=&#39;#&#39;&gt;Test link&lt;/a&gt;
                     </b:if>
                     
                     <b:section cond='data:view.isHomepage' id='top-widget' showaddelement='true'>
-                      <b:widget id='HTML1' locked='true' title='Today you are looking?' type='HTML' version='2' visible='true'>
+                      <b:widget id='HTML1' locked='true' title='Explore Nationalist Academy' type='HTML' version='2' visible='true'>
                         <b:widget-settings>
                           <b:widget-setting name='content'><![CDATA[<!--[ you can only edit this widget from HTML theme ]-->]]></b:widget-setting>
                         </b:widget-settings>
                         <b:includable id='main'>
-                      <b:include name='widget-title'/>
-                      <div class='widget-content'>
-                      <div class='stw-feature coll-3 icon-p-2'> 
-      
-      <!--[ Category Layout Title ]-->
-      <h2><span><data:title/></span></h2> 
-      
-      <ul> 
-
-         <!--[ Layout 01 ]-->
-         <li> 
-         <!--[ Link and Title ]-->
-          <a href='#' title='Adventure'>
-
-          <!--[ Link Icon ]-->
-          <b:include name='folder-icon'/>
-
-           <!--[ Link Name ]-->
-           <span>Adventure</span>
-           </a></li> 
-      
-
-            <!--[ Layout 02 ]-->
-             <li>
-
-             <!--[ Link and Title ]-->
-              <a href='#' title='Tech'> 
-
-              <!--[ Link Icon ]-->
-              <b:include name='folder-icon'/>
-
-              <!--[ Link Name ]-->
-              <span>Tech</span>
-              </a></li> 
-      
-
-              <!--[ Layout 03 ]-->
-              <li> 
-
-              <!--[ Link and Title ]-->
-              <a href='#' title='Products'>
-
-                  <!--[ Link Icon ]-->
-                  <b:include name='folder-icon'/>
-
-                  <!--[ Link Name ]-->
-                  <span>Products</span>
-                
-                   </a></li></ul></div>
-                   </div>
-                   </b:includable>
+  <b:include name='widget-title'/>
+  <div class='widget-content'><div class='stw-feature coll-3 icon-p-2'>
+    <h2><span>Explore Nationalist Academy</span></h2>
+    <ul>
+      <li><a href='/search/label/OSINT' title='OSINT and public-source research'><b:include name='folder-icon'/><span>OSINT &amp; Public Research</span></a></li>
+      <li><a href='/search/label/Digital%20Literacy' title='Digital literacy and online safety'><b:include name='folder-icon'/><span>Digital Literacy</span></a></li>
+      <li><a href='/search/label/Research%20Ethics' title='Research ethics and source verification'><b:include name='folder-icon'/><span>Research Ethics</span></a></li>
+    </ul>
+  </div></div>
+</b:includable>
                       </b:widget>
                       <b:widget cond='!data:view.isPreview' id='HTML92' locked='true' title='Ad placement' type='HTML' version='2' visible='true'>
                         <b:widget-settings>
@@ -2478,7 +2385,7 @@ Welcome to Lantro UI! &lt;a href=&#39;#&#39;&gt;Test link&lt;/a&gt;
                           <b:widget-setting name='showShareButtons'>true</b:widget-setting>
                           <b:widget-setting name='authorLabel'>Oleh</b:widget-setting>
                           <b:widget-setting name='showCommentLink'>true</b:widget-setting>
-                          <b:widget-setting name='style.urlcolor'>#9c27b0</b:widget-setting>
+                          <b:widget-setting name='style.urlcolor'>#0f766e</b:widget-setting>
                           <b:widget-setting name='showAuthor'>true</b:widget-setting>
                           <b:widget-setting name='style.linkcolor'>#08102b</b:widget-setting>
                           <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
@@ -3838,18 +3745,20 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
               <b:section id='footer-widget-1' maxwidgets='2' showaddelement='true'>
                 <b:widget id='HTML001' locked='true' title='About' type='HTML' version='2' visible='true'>
                   <b:widget-settings>
-                    <b:widget-setting name='content'>&lt;div class=&#39;aboutUs&#39;&gt;
-  &lt;div class=&#39;aboutTitle&#39;&gt;
-    &lt;div class=&#39;titleText&#39; data-text=&#39;Made with help by&#39;&gt;
-      &lt;h3&gt;STW Team&lt;/h3&gt;
-    &lt;/div&gt;
-
-    &lt;!--[ Delete comment tag on section bellow and change data-src=&#39;#&#39; attribute with your logo url ]--&gt;
-    &lt;!-- &lt;img class=&#39;lazy&#39; alt=&#39;STW&#39; data-src=&#39;#&#39; src=&#39;data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=&#39;/&gt; --&gt;
-
-  &lt;/div&gt;
-  &lt;p class=&#39;aboutDesc&#39;&gt;Do you have any creativity? Its never too early or late to show it!&lt;/p&gt;
-&lt;/div&gt;</b:widget-setting>
+                    <b:widget-setting name='content'><![CDATA[
+<div class='aboutUs' id='org-legal'>
+ <div class='aboutTitle'><div class='titleText' data-text='Independent educational &amp; information initiative'><h3>Nationalist Academy</h3></div></div>
+ <p class='aboutDesc'>Nationalist Academy develops educational resources, digital-literacy material and practical public-interest explainers. We aim for accuracy, transparency, privacy and responsible research.</p>
+ <p><strong>Operating model:</strong> Sole proprietorship</p>
+ <p><strong>Proprietor:</strong> Faiez Mehmood</p>
+ <p><strong>Location:</strong> Karachi, Sindh, Pakistan</p>
+ <p><strong>Official email:</strong> <a href='mailto:faiezbinhafeez@gmail.com'>faiezbinhafeez@gmail.com</a></p>
+ <p><strong>NTN status:</strong> Registered, as stated by the proprietor. No NTN number is published in this theme.</p>
+ <p>Nationalist Academy is not an incorporated company, NGO, charity, university, government body, law firm or regulatory authority. It does not claim official affiliation with any university or public institution.</p>
+ <p><strong>Research &amp; OSINT:</strong> Our public-source research material is educational and limited to lawfully accessible sources. We promote source citation, cross-checking, date/context verification and privacy protection. We do not support unauthorized access, account intrusion, doxxing, stalking, harassment, covert tracking or disclosure of sensitive personal data.</p>
+ <p><strong>Disclaimer:</strong> Website content is informational and educational only, not legal, financial, security or professional advice. Verify important claims with primary sources and consult qualified professionals where required.</p>
+</div>
+]]></b:widget-setting>
                   </b:widget-settings>
                   <b:includable id='main'>
                     <div class='widget-content'>                   
@@ -3951,10 +3860,10 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
                 <b:widget id='LinkList03' locked='true' title='Product &amp;amp; Service' type='LinkList' version='2' visible='true'>
                   <b:widget-settings>
                     <b:widget-setting name='sorting'>NONE</b:widget-setting>
-                    <b:widget-setting name='text-1'>Other Product</b:widget-setting>
-                    <b:widget-setting name='link-1'>#</b:widget-setting>
-                    <b:widget-setting name='text-0'>Blogger Theme</b:widget-setting>
-                    <b:widget-setting name='link-0'>#</b:widget-setting>
+                    <b:widget-setting name='text-1'>Digital Literacy</b:widget-setting>
+                    <b:widget-setting name='link-1'>/search/label/Digital%20Literacy</b:widget-setting>
+                    <b:widget-setting name='text-0'>OSINT &amp; Public Research</b:widget-setting>
+                    <b:widget-setting name='link-0'>/search/label/OSINT</b:widget-setting>
                   </b:widget-settings>
                   <b:includable id='main'>
                     <b:include name='widget-title'/>
@@ -3980,10 +3889,10 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
                 <b:widget id='LinkList04' locked='true' title='Support' type='LinkList' version='2' visible='true'>
                   <b:widget-settings>
                     <b:widget-setting name='sorting'>NONE</b:widget-setting>
-                    <b:widget-setting name='text-1'>Documentation</b:widget-setting>
-                    <b:widget-setting name='link-1'>#</b:widget-setting>
-                    <b:widget-setting name='text-0'>Contact</b:widget-setting>
-                    <b:widget-setting name='link-0'>#</b:widget-setting>
+                    <b:widget-setting name='text-1'>Research Ethics</b:widget-setting>
+                    <b:widget-setting name='link-1'>/search/label/Research%20Ethics</b:widget-setting>
+                    <b:widget-setting name='text-0'>Corrections &amp; enquiries</b:widget-setting>
+                    <b:widget-setting name='link-0'>mailto:faiezbinhafeez@gmail.com?subject=Correction%20or%20Enquiry</b:widget-setting>
                   </b:widget-settings>
                   <b:includable id='main'>
                     <b:include name='widget-title'/>
@@ -4011,12 +3920,10 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
             <div class='creditInner'>
               <p>&#169; <span id='getYear'><script>/*<![CDATA[*/ var d = new Date(); var n = d.getFullYear(); document.getElementById('getYear').innerHTML = n; /*]]>*/</script></span> &#8231;  <a expr:href='data:blog.homepageUrl.canonical'><data:blog.title/></a>.</p>
              
-<style>.removelink{text-indent:-99999px;}</style> 
-<div class='removelink'> 
- <p style='text-align:left;'>Copyright <i aria-hidden='true' class='fa fa-copyright' style='color: red;'/> 2020 <a href='https://www.somadanmedia.com' rel='dofollow' style='color:#26c6da;' target='_blank'>Fixing Geek FAQ</a> All Right Reseved</p>
-
+<div class='themeCredit'>
+ <p>Theme base: <a href='https://lantro-ui.shivatechnicworld.eu.org/p/purchase.html' rel='nofollow' target='_blank'>Lantro UI v1.5</a> by STW Team. Distribution credit: <a href='https://somadanmedia.com' rel='nofollow' target='_blank'>Somadan Media</a>. Original licence and attribution terms remain applicable.</p>
 </div>
-              <!--[ Back top button ]-->
+<!--[ Back top button ]-->
               <div class='toTop' onclick='window.scrollTo({top: 0});'><b:include name='arow-up-circle-icon'/>
               </div>
             </div>
