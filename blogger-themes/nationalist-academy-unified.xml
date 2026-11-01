@@ -84,7 +84,6 @@
       </a>
       <nav aria-label='Main navigation' class='headlinks'>
         <a expr:href='data:blog.homepageUrl'>Home</a>
-        <a href='https://taleemwaly.blogspot.com/'>TaleemWaly</a>
         <a href='https://assignmentwaly.blogspot.com/'>Assignmentwaly</a>
         <a href='https://aioucoaching.blogspot.com/'>AIOU Coaching</a>
         <a href='https://nationalistacademy.blogspot.com/'>Nationalist Academy</a>
@@ -121,7 +120,6 @@
       <div class='widget'>
         <h3>Explore our blogs</h3>
         <div class='network'>
-          <a href='https://taleemwaly.blogspot.com/'>📘 TaleemWaly — learning resources</a>
           <a href='https://assignmentwaly.blogspot.com/'>📝 Assignmentwaly — assignment guidance</a>
           <a href='https://aioucoaching.blogspot.com/'>🎓 AIOU Coaching — study tools</a>
           <a href='https://nationalistacademy.blogspot.com/'>🏛️ Nationalist Academy — main hub</a>
