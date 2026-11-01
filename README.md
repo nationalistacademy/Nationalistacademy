@@ -18,7 +18,6 @@ Nationalist Academy is not an incorporated company, NGO, charity, university, go
 
 | Project | Focus |
 |---|---|
-| [TaleemWaly](https://taleemwaly.blogspot.com/) | General learning resources, educational explainers and study guidance. |
 | [Assignmentwaly](https://assignmentwaly.blogspot.com/) | Assignment guidance, solved examples, academic resources and student tools. |
 | [AIOU Coaching](https://aioucoaching.blogspot.com/) | Independent AIOU study support, free learning tools and exam practice. |
 | [Nationalist Academy Blog](https://nationalistacademy.blogspot.com/) | Organization updates, digital literacy and public-interest explainers. |
