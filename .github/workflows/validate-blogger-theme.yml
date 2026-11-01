@@ -1,0 +1,35 @@
+name: Validate Blogger theme
+on:
+  push:
+    paths:
+      - 'blogger-themes/**'
+      - '.github/workflows/validate-blogger-theme.yml'
+  pull_request:
+    paths:
+      - 'blogger-themes/**'
+      - '.github/workflows/validate-blogger-theme.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  xml-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Validate Blogger XML syntax
+        run: |
+          python - <<'PY'
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+
+          theme = Path("blogger-themes/nationalist-academy-unified.xml")
+          root = ET.parse(theme).getroot()
+          assert root.tag.endswith("html"), f"Unexpected root element: {root.tag}"
+          ns = {"b": "http://www.google.com/2005/gml/b"}
+          assert root.find(".//b:skin", ns) is not None, "Missing Blogger b:skin"
+          assert root.find(".//b:section[@id='main']", ns) is not None, "Missing main Blog section"
+          print(f"Valid XML: {theme}")
+          PY
