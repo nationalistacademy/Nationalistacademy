@@ -76,7 +76,7 @@
       <b:elseif cond='data:view.isSingleItem'/>
       <meta expr:content='data:post.snippet.escaped snippet { length: 147, links: false, linebreaks: false, ellipsis: false }' name='description'/>
       <b:else/>
-      <meta expr:content='data:blog.pageName.escaped ? data:blog.pageName.escaped : data:blog.title' name='description'/>
+      <meta content='Nationalist Academy is an independent educational and information initiative in Karachi, Pakistan, sharing digital literacy, responsible OSINT education, source verification and public-interest explainers.' name='description'/>
     </b:if>
     <meta expr:content='&quot;Nationalist Academy, OSINT education, public-source research, digital literacy, source verification, research ethics, Pakistan&quot;' name='keywords'/>
     <b:tag cond='data:view.isPost' expr:href='resizeImage(data:blog.postImageUrl, 0)' name='link' rel='image_src'/>
@@ -108,7 +108,7 @@
       <b:if cond='data:blog.metaDescription'>
         <meta expr:content='data:blog.metaDescription.escaped' property='og:description'/>         
         <b:else/>
-        <meta expr:content='data:blog.pageName.escaped ? data:blog.pageName.escaped : data:blog.title' property='og:description'/>
+        <meta content='Independent educational resources, digital literacy, responsible public-source research and source verification from Nationalist Academy, Karachi, Pakistan.' property='og:description'/>
       </b:if>
       <b:else/>
       <meta content='article' property='og:type'/>
@@ -132,7 +132,7 @@
       <b:if cond='data:blog.metaDescription'>
         <meta expr:content='data:blog.metaDescription.escaped' name='twitter:description'/>         
         <b:else/>
-        <meta expr:content='data:blog.pageName.escaped ? data:blog.pageName.escaped : data:blog.title' name='twitter:description'/>
+        <meta content='Independent educational resources, digital literacy, responsible public-source research and source verification from Nationalist Academy, Karachi, Pakistan.' name='twitter:description'/>
       </b:if>
       <b:else/>
       <b:if cond='data:blog.metaDescription'>
@@ -171,7 +171,7 @@
   &lt;style&gt;&lt;!-- /* <b:skin version='1.3.0'><![CDATA[
 /*
 <Group description="Theme Color">
-<Variable name="themeColor" description="Address bar color" type="color" default="#0f766e" value="transparent"/>
+<Variable name="themeColor" description="Address bar color" type="color" default="#0f766e" value="#0f766e"/>
 </Group>
 
 <Group description="Basic colors and Background">
@@ -3754,7 +3754,7 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
  <p><strong>Official email:</strong> <a href='mailto:faiezbinhafeez@gmail.com'>faiezbinhafeez@gmail.com</a></p>
  <p><strong>NTN status:</strong> Registered, as stated by the proprietor. No NTN number is published in this theme.</p>
  <p>Nationalist Academy is not an incorporated company, NGO, charity, university, government body, law firm or regulatory authority. It does not claim official affiliation with any university or public institution.</p>
- <p><strong>Research &amp; OSINT:</strong> Our public-source research material is educational and limited to lawfully accessible sources. We promote source citation, cross-checking, date/context verification and privacy protection. We do not support unauthorized access, account intrusion, doxxing, stalking, harassment, covert tracking or disclosure of sensitive personal data.</p>
+ <p><strong>Research &amp; OSINT:</strong> Our public-source research material is educational and limited to lawfully accessible sources. Our method is to define a clear research question, record source URLs and access dates, corroborate important claims with independent sources, distinguish evidence from inference, and state uncertainty. We do not support unauthorized access, account intrusion, doxxing, stalking, harassment, covert tracking or disclosure of sensitive personal data.</p>
  <p><strong>Disclaimer:</strong> Website content is informational and educational only, not legal, financial, security or professional advice. Verify important claims with primary sources and consult qualified professionals where required.</p>
 </div>
 ]]></b:widget-setting>
