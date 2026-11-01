@@ -4,9 +4,8 @@
 
 File: `nationalist-academy-unified.xml`
 
-This is a reusable, responsive Blogger XML theme for the Nationalist Academy blog network. It uses the active Blogger blog's title and homepage URL automatically and provides cross-navigation to:
+This is a reusable, responsive Blogger XML theme for the Nationalist Academy project network. It uses the active Blogger blog's title and homepage URL automatically and provides cross-navigation to:
 
-- [TaleemWaly](https://taleemwaly.blogspot.com/)
 - [Assignmentwaly](https://assignmentwaly.blogspot.com/)
 - [AIOU Coaching](https://aioucoaching.blogspot.com/)
 - [Nationalist Academy](https://nationalistacademy.blogspot.com/)
