@@ -31,7 +31,7 @@ The repository root contains a lightweight, responsive project hub in `index.htm
 
 ## Blogger theme
 
-An original Blogger XML theme specifically for the Nationalist Academy blog is maintained in [blogger-themes/theme.xml](./blogger-themes/theme.xml). It includes responsive desktop/mobile layouts, mobile bottom navigation, search, dark mode, organization information and links to the two independent project blogs. It is not a shared theme for Assignmentwaly or AIOU Coaching. Read the [installation and safety notes](./blogger-themes/README.md) before applying it. The XML is a theme file only; it does not install itself or modify Blogger settings.
+A Nationalist Academy-branded customization of the Lantro UI v1.5 upstream Blogger theme is maintained in [blogger-themes/theme.xml](./blogger-themes/theme.xml). The upstream author/distributor attribution and licence notice are retained; a valid upstream licence is required. The theme includes Nationalist Academy navigation, responsible OSINT/public-source research information, legal identity details, SEO metadata and responsive styling. It is only for the Nationalist Academy blog and does not install itself or modify Blogger settings. Read the [licensing, installation and safety notes](./blogger-themes/README.md) before applying it.
 
 ## Our principles
 
